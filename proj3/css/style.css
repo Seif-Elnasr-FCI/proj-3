@@ -1,0 +1,496 @@
+* {
+
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    color: rgba(32, 27, 27, 0.733);
+height: 3000px;
+font-family: cursive;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+     }
+
+     .d-flex {
+         display: flex;
+     }
+
+
+/*nav-bar*/
+
+.nav {
+
+width: 100%;
+height: 60px;
+background-image: linear-gradient(to right ,rgba(0, 96, 128 , 0.8), rgba(179, 236, 255 , 0.5)) , url("../img/hero-bg.jpg");
+position: fixed;
+z-index: 1;
+background-size: cover;
+}
+
+.container h4 {
+    width: 50%;
+    color: white;
+    line-height: 60px;
+}
+
+.nav-content {
+    width: 50%;
+}
+
+.nav-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content ul li {
+
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.nav-content ul li:hover {
+
+    color: whitesmoke;
+    
+}
+
+/*nav-bar*/
+
+
+/*main1*/
+
+.main1 {
+
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to right ,rgba(0, 96, 128 , 0.8), rgba(179, 236, 255 , 0.5)) , url("../img/hero-bg.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main1 img {
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.text {
+
+    width: 50%;
+    line-height: 50px;
+    margin-top: 200px;
+}
+
+.text h1 {
+
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text p {
+
+    color: white;
+}
+
+.text button {
+
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: transparent; 
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.panner {
+
+    width: 50%;
+    
+}
+
+.panner img {
+
+   width: 200px;
+   bottom: 170;
+   right: 200;
+  
+}
+
+
+
+.panner #icon2 {
+
+    width: 200px;
+    bottom: 190;
+    right: 300;
+    animation-name: anime2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anime2 {
+
+    from {
+
+        margin-right: 0px;
+    }
+
+    to {
+
+        margin-right: 80px;
+    }
+}
+
+/*main1*/
+
+/*main2*/
+
+.main2 {
+
+    width: 100%;
+    height: 600px;
+}
+
+.main2 .container {
+
+    justify-content: space-between;
+}
+
+.main2 h1 {
+
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.box {
+    width: 30%;
+    height: 200px;
+    margin-top: 70px;
+    margin-right: 5%;
+    text-align: center;
+    box-shadow: 4px 7px 10px grey;
+}
+
+.box:hover {
+
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+.details {
+
+    background-color: whitesmoke;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.details h5 {
+text-transform: capitalize;
+    color: black;
+}
+
+.img {
+
+    padding: 15px;
+    
+}
+
+
+
+/*main2*/
+
+/*main3*/
+
+.main3 {
+
+    width: 100%;
+    height: 900px;
+}
+
+.main3 .container {
+
+    justify-content: space-between;
+}
+
+.main3 img {
+
+    width: 600px;
+/* margin-top: 100px;*/
+    margin-left: 450px;
+    animation-name: flep;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+ 
+@keyframes flep {
+
+    from {
+
+        margin-top: 15px;
+    }
+
+    to {
+
+        margin-bottom: 15px;
+    }
+}
+
+.box2 h1 {
+text-transform: capitalize;
+    color: black;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.box2 h4 {
+margin-left: 15px;
+  color: rgb(37, 78, 137);
+}
+
+.box2 {
+    background-color: whitesmoke;
+    width: 30%;
+    box-shadow: 4px 7px 10px grey;
+    margin-top: 70px;
+    line-height: 45px;
+    
+}
+
+.box2 p{
+
+    margin-left: 20px;
+}
+
+.box2:hover {
+
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/*main3*/
+
+/*main4*/
+
+.main4 {
+
+    width: 100%;
+    height: 650px;
+    margin-top: 100px;
+}
+
+.collect {
+
+    width: 50%;
+    line-height: 40px;
+    
+}
+
+
+
+.pic {
+
+    width: 50%;
+}
+
+.pic img {
+
+    width: 100%;
+}
+
+
+.main4 .container {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collect h1 {
+text-transform: capitalize;
+    color: black;
+}
+
+.collect p {
+    min-width: 50px;
+}
+
+.collect button {
+
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb( 31, 100 , 146); 
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+/*main4*/
+
+
+/*main5*/
+
+.main5 {
+
+    width: 100%;
+    height: 650px;
+    margin-top: 100px;
+}
+
+.main5 .collect {
+
+    width: 50%;
+    line-height: 40px;
+    margin-left: 200px;
+}
+
+
+
+.pic {
+
+    width: 50%;
+}
+
+.pic img {
+
+    width: 100%;
+}
+
+.main5 .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collect h1 {
+text-transform: capitalize;
+    color: black;
+}
+
+.collect p {
+    min-width: 50px;
+}
+
+.collect button {
+
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb( 31, 100 , 146); 
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+
+/*main5*/
+
+
+/*main6*/
+
+.main6 {
+
+    width: 100%;
+    height: 550px;
+}
+
+.main6 .container {
+
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.main6 h1 {
+    color: rgb( 31, 100 , 146); 
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+    text-transform: capitalize;
+}
+
+.main6 .container h4 {
+
+color: black;
+text-transform: capitalize;
+margin-left: 180px;
+}
+
+.main6 .container img {
+
+    border-radius: 50%;
+    width: 100px;
+    padding: 10px   ;
+}
+
+/*main6*/
+
+
+/*main7*/
+
+.main7 {
+
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to right , rgb(40,72,134) , rgb(60,176,195)) ;
+}
+
+.main7 .container {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note {
+color: white;
+text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 75px;
+    font-family: monospace;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: black; 
+    color: white;
+    cursor: pointer;
+    font-family: cursive;
+    text-transform: capitalize;
+
+}
+
+/*main7*/
+
+.cr {
+
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cr h4 {
+
+    color: gray;
+    text-align: center;
+    }
